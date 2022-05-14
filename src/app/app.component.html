@@ -6,19 +6,21 @@
 		grid-template-rows: 1fr;
 		align-items: center;
 		justify-items: center;
+		padding: 10px;
 	}
 
 	.links>div {
 		display: grid;
-		grid-template-columns: 32px 1fr;
+		grid-template-columns: 200px 1fr;
 		gap: 10px;
 		align-items: center;
 		justify-items: center;
 	}
 
-	.links>div>img {
+	.links>div:first-child {
 		width: 100%;
 		height: 100%;
+		overflow: visible;
 	}
 </style>
 
@@ -29,8 +31,8 @@
 <div class="content" role="main">
 	<div class="links">
 		<div>
-			<img alt="Logo Instagram" src="../assets/logo-instagram.png">
-			<!-- <object alt="Logo Carton Seconde Vie" data="../assets/logo.svg" type="image/svg+xml"></object> -->
+			<!-- <img alt="Logo Instagram" src="../assets/logo-instagram.png"> -->
+			<object alt="Logo Carton Seconde Vie" data="../assets/logo.svg" type="image/svg+xml"></object>
 			<span>Instagram: <a href="https://www.instagram.com/cartonsecondevie/">cartonsecondevie</a></span>
 		</div>
 	</div>
