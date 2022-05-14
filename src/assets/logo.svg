@@ -18,18 +18,22 @@
 			stroke-linecap: round;
 			stroke-linejoin: round;
 		}
+		text {
+			font-size: 40px;
+			font-family: system-ui;
+		}
 	</style>
 	<marker id="pointer" markerWidth="10" markerHeight="10" refX="5" refY="0" orient="70" markerUnits="userSpaceOnUse">
 		<polyline points="1 1, 5 9, 9 1" />
 	</marker>
 	</defs>
 	<path class="box" d="
-	M20,70 l-15,-15 l45,-10 l10,10 l-40,15
+	M20,100 l-15,-15 l45,-10 l10,10 l-40,15
 	l50,5 l-15,25 l-50,-10 l15,-20
-	M110,60 l-40,15 l20,30 l40,-20 l-20,-25
+	M110,90 l-40,15 l20,30 l40,-20 l-20,-25
 	l-50,-5 l15,-20 l50,0 l-15,25
-	M70,75 l0,85 l-50,-25 l0,-42
-	M70,160 l40,-30 l0,-35" fill="black"></path>
-	<path class="arrow" d="M60,40 a55,55 1 1,1 70,60" fill="#E79A16" marker-end="url(#pointer)"/>
-	<text>2</text>
+	M70,105 l0,85 l-50,-25 l0,-42
+	M70,190 l40,-30 l0,-35" fill="black"></path>
+	<path class="arrow" d="M60,70 a65,65 1 1,1 70,60" fill="#E79A16" marker-end="url(#pointer)"/>
+	<text x="130" y="60">2</text>
 </svg>
